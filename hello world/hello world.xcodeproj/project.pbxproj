@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		046F09491D3F60BC005F4A9E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F09481D3F60BC005F4A9E /* Person.m */; };
+		046F094C1D3F6105005F4A9E /* Language.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F094B1D3F6105005F4A9E /* Language.m */; };
+		046F094F1D3F6120005F4A9E /* IOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F094E1D3F6120005F4A9E /* IOS.m */; };
+		046F09521D3F6130005F4A9E /* Java.m in Sources */ = {isa = PBXBuildFile; fileRef = 046F09511D3F6130005F4A9E /* Java.m */; };
 		04CD31061D3E0FBA001D6146 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CD31051D3E0FBA001D6146 /* main.m */; };
 		04CD31091D3E0FBA001D6146 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CD31081D3E0FBA001D6146 /* AppDelegate.m */; };
 		04CD310C1D3E0FBA001D6146 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CD310B1D3E0FBA001D6146 /* ViewController.m */; };
@@ -16,6 +20,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		046F09471D3F60BC005F4A9E /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		046F09481D3F60BC005F4A9E /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		046F094A1D3F6105005F4A9E /* Language.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Language.h; sourceTree = "<group>"; };
+		046F094B1D3F6105005F4A9E /* Language.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Language.m; sourceTree = "<group>"; };
+		046F094D1D3F6120005F4A9E /* IOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOS.h; sourceTree = "<group>"; };
+		046F094E1D3F6120005F4A9E /* IOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOS.m; sourceTree = "<group>"; };
+		046F09501D3F6130005F4A9E /* Java.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Java.h; sourceTree = "<group>"; };
+		046F09511D3F6130005F4A9E /* Java.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Java.m; sourceTree = "<group>"; };
 		04CD31011D3E0FBA001D6146 /* hello world.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello world.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CD31051D3E0FBA001D6146 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		04CD31071D3E0FBA001D6146 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +74,14 @@
 				04CD31081D3E0FBA001D6146 /* AppDelegate.m */,
 				04CD310A1D3E0FBA001D6146 /* ViewController.h */,
 				04CD310B1D3E0FBA001D6146 /* ViewController.m */,
+				046F09471D3F60BC005F4A9E /* Person.h */,
+				046F09481D3F60BC005F4A9E /* Person.m */,
+				046F094A1D3F6105005F4A9E /* Language.h */,
+				046F094B1D3F6105005F4A9E /* Language.m */,
+				046F094D1D3F6120005F4A9E /* IOS.h */,
+				046F094E1D3F6120005F4A9E /* IOS.m */,
+				046F09501D3F6130005F4A9E /* Java.h */,
+				046F09511D3F6130005F4A9E /* Java.m */,
 				04CD310D1D3E0FBA001D6146 /* Main.storyboard */,
 				04CD31101D3E0FBA001D6146 /* Assets.xcassets */,
 				04CD31121D3E0FBA001D6146 /* LaunchScreen.storyboard */,
@@ -149,8 +169,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046F094C1D3F6105005F4A9E /* Language.m in Sources */,
+				046F09521D3F6130005F4A9E /* Java.m in Sources */,
 				04CD310C1D3E0FBA001D6146 /* ViewController.m in Sources */,
 				04CD31091D3E0FBA001D6146 /* AppDelegate.m in Sources */,
+				046F094F1D3F6120005F4A9E /* IOS.m in Sources */,
+				046F09491D3F60BC005F4A9E /* Person.m in Sources */,
 				04CD31061D3E0FBA001D6146 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +324,7 @@
 				04CD311A1D3E0FBA001D6146 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
