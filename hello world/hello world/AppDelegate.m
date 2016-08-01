@@ -14,6 +14,9 @@
 extern int i;
 
 @interface AppDelegate ()
+{
+    NSString *name;
+}
 
 @end
 
