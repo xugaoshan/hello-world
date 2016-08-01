@@ -51,6 +51,12 @@ extern int i;
     //父类强转子类 是逆变 父类不一定有子类的东西 所以是不和谐的变化
     p2 = p3;
     
+    
+    Language<Java *> *lan = [[Language alloc] init];
+    lan.language = [[Java alloc] init];
+    
+    
+    
     return YES;
 }
 

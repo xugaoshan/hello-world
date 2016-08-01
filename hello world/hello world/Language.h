@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Language : NSObject
+@interface Language<objectType> : NSObject
+{
+    
+}
+
+@property(nonatomic, strong)objectType language;
 
 @end

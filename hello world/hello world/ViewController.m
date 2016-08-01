@@ -25,6 +25,8 @@ const int i = 2;
 @property(nonatomic , strong ,null_resettable) __kindof NSString * icon6;
 @property(nonatomic , strong ,null_unspecified) NSString *icon7;
 
+//泛型修饰集合类型
+@property(nonatomic , strong) NSArray<NSString *> *dic;
 
 @end
 
