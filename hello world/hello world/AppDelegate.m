@@ -16,7 +16,6 @@ extern int i;
 @interface AppDelegate ()
 {
     NSString *name;
-    int age;
 }
 
 @end
