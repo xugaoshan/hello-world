@@ -17,6 +17,7 @@ extern int i;
 {
     NSString *name;
     int age;
+    int number;
 }
 
 @end
